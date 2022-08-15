@@ -11,7 +11,14 @@ aliases = [
 +++
 
 
-# Short guide to Markdown slides
+# A good title
+## Subtitles are important
+### Talk @ Somewhere
+
+###### **Gianluca Aguzzi**
+<aside class="notes">
+    Shhh, these are your private notes 📝
+</aside>
 
 ---
 
