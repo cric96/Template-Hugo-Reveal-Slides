@@ -8,7 +8,7 @@ on:
       - completed
 
 jobs:
-  notify:
+  deploy-pdf:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,7 +16,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: npm install -g npx
+      - run: npm install --location=global npx
       - name: Get GH pages URL
         run: echo '::set-output name=URL::$(ruby ./github/scripts/github_pages.ru)'
         id: gh-pages-url
