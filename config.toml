@@ -3,6 +3,7 @@ title = "Todo: A title"
 disableKinds = ["sitemap", "RSS"]
 theme = "reveal-hugo"
 publishDir = "build"
+canonifyURLs = true
 
 # uncomment for browsing at file:///
 # relativeURLs = true
@@ -40,4 +41,3 @@ height = 900
 [params.reveal_hugo.custom_theme_options]
 targetPath = "css/custom-theme.css"
 enableSourceMap = true
-canonifyURLs = true
