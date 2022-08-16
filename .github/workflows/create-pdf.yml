@@ -6,7 +6,7 @@ on:
     workflows: ["pages-build-deployment"]
     types:
       - completed
-
+  workflow_dispatch:
 jobs:
   deploy-pdf:
     runs-on: ubuntu-latest
