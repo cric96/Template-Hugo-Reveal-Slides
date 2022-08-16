@@ -1,5 +1,5 @@
-@import "reveal-js/css/theme/template/mixins";
-@import "reveal-js/css/theme/template/settings";
+@import "reveal-js/dist/theme/template/mixins";
+@import "reveal-js/dist/theme/template/settings";
 
 
 // Include theme-specific fonts
@@ -51,7 +51,7 @@ $linkColor: $blue;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: $magenta;
 
-@import "reveal-js/css/theme/template/theme";
+@import "reveal-js/dist/theme/template/theme";
 
 .reveal pre {
 	margin: 1em auto;
