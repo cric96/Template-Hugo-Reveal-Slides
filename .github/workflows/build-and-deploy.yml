@@ -23,6 +23,8 @@ jobs:
         uses: danysk/action-checkout@0.2.1
       - name: Update submodules
         run: git submodule update --init --recursive
+      - name: Adjust chart for mermaid rendering
+        run: npx -p @mermaid-js/mermaid-cli mmdc -i content/_index.md -o content/_index.md   
       - name: Compute the version of Hugo
         id: hugo
         shell: bash
