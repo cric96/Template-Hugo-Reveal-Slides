@@ -1,6 +1,6 @@
 {
 	"version": 3,
-	"file": "_.css",
+	"file": "custom-theme.css",
 	"sourceRoot": "/home/runner/work/Template-Hugo-Reveal-Slides/Template-Hugo-Reveal-Slides",
 	"sources": [
 		"assets/custom-theme.scss",
