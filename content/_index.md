@@ -176,6 +176,10 @@ $$\frac{n!}{k!(n-k)!} = \binom{n}{k}$$
 val x = pippo
 ```
 
+```python
+elements = [1, 2, 3, 5, 6]
+print(elements[:2])
+```
 ```go
 package main
  
