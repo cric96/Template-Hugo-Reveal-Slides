@@ -49,13 +49,11 @@ jobs:
         run: hugo version
       - name: Remove Hugo Installer
         run: rm hugo.deb
-      # - name: Start SSH session
-      #   uses: luchihoratiu/debug-via-ssh@main
-      #   with:
-      #     NGROK_AUTH_TOKEN: ${{ secrets.NGROK_AUTH_TOKEN }}
-      #     SSH_PASS: ${{ secrets.SSH_PASS }}
+      - name: Get GH pages URL
+        run: ruby .github/scripts/github_pages.ru | xargs -I{} echo '::set-output name=URL::{}'
+        id: gh-pages-url
       - name: Build slides with hugo
-        run: hugo
+        run: hugo --b ${{ steps.gh-pages-url.outputs.URL }}
       - name: Deploy website
         if: ${{ github.event_name != 'pull_request' }}
         uses: JamesIves/github-pages-deploy-action@v4.4.0
