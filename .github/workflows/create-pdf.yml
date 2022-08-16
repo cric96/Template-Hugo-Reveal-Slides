@@ -3,7 +3,7 @@ name: Create PDF slides
 # Only trigger, when the build workflow succeeded
 on:
   workflow_run:
-    workflows: ["pages build and deployment"]
+    workflows: ["pages-build-deployment"]
     types:
       - completed
 
