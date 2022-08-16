@@ -19,6 +19,11 @@ jobs:
       - name: Get GH pages URL
         run: ruby .github/scripts/github_pages.ru | xargs -I{} echo '::set-output name=URL::{}'
         id: gh-pages-url
-    
       - name: Produce PDF
-        run: npx decktape automatic ${{ steps.gh-pages-url.outputs.URL }} slides.pdf 
+        run: npx decktape automatic ${{ steps.gh-pages-url.outputs.URL }} slides.pdf
+      - name: Tag From date
+        run: echo $(date +'%Y.%m.%d-%H:%M') | xargs -I{}  echo '::set-output name=TAG::{}'  
+        id: tag-from-data
+      - uses: actions-ecosystem/action-push-tag@v1
+        with:
+          tag: ${{ steps.tag-from-data.outputs.TAG }}
