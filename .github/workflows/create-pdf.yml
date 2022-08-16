@@ -24,6 +24,8 @@ jobs:
       - name: Tag From date
         run: echo $(date +'%Y.%m.%d-%H:%M') | xargs -I{}  echo '::set-output name=TAG::{}'  
         id: tag-from-data
-      - uses: actions-ecosystem/action-push-tag@v1
+      - uses: xresloader/upload-to-github-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag: ${{ steps.tag-from-data.outputs.TAG }}
+          file: "*.pdf"
