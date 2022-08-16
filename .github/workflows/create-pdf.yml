@@ -23,9 +23,11 @@ jobs:
         run: npx decktape automatic ${{ steps.gh-pages-url.outputs.URL }} slides.pdf
       - name: Tag From date
         run: echo $(date +'%Y.%m.%d-%H:%M') | xargs -I{}  echo '::set-output name=TAG::{}'  
-        id: tag-from-data
+        id: tag-from-date
       - uses: xresloader/upload-to-github-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           file: "*.pdf"
+          draft: false
+          tag_name: ${{ steps.tag-from-date.outputs.TAG}}

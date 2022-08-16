@@ -1,4 +1,4 @@
-baseURL = "https://danysk.github.io/Template-Hugo-Reveal-Slides"
+baseURL = "https://cric96.github.io/Template-Hugo-Reveal-Slides/"
 languageCode = "en-us"
 title = "Todo: A title"
 disableKinds = ["sitemap", "RSS"]
