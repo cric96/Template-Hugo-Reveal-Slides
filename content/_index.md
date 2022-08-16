@@ -172,7 +172,7 @@ $$\frac{n!}{k!(n-k)!} = \binom{n}{k}$$
 # Code snippets
 
 
-```kotlin
+```scala
 val x = pippo
 ```
 
