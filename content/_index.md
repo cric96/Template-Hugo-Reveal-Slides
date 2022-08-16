@@ -230,4 +230,15 @@ raw Markdown line up prettily. You can also use inline Markdown.
 * {{< frag c="pluto" >}}
 
 ---
-![diagram](./foo-1.svg)
+```mermaid
+gitGraph
+       commit
+       commit
+       branch develop
+       commit
+       commit
+       commit
+       checkout main
+       commit
+       commit
+```
