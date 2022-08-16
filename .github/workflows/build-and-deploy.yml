@@ -61,5 +61,3 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
           folder: build
-      - name: Build PDF from pages
-        run: npx decktape automatic  result.pdf 
