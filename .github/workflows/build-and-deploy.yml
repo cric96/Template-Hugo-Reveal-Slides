@@ -24,7 +24,7 @@ jobs:
       - name: Update submodules
         run: git submodule update --init --recursive
       - name: Adjust chart for mermaid rendering
-        run: ruby scripts/adjust-svg.ru
+        run: ruby .github/scripts/adjust-svg.ru
       - name: Compute the version of Hugo
         id: hugo
         shell: bash
