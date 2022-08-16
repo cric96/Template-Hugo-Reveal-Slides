@@ -40,3 +40,4 @@ height = 900
 [params.reveal_hugo.custom_theme_options]
 targetPath = "css/custom-theme.css"
 enableSourceMap = true
+canonifyURLs = true
