@@ -230,7 +230,7 @@ raw Markdown line up prettily. You can also use inline Markdown.
 * {{< frag c="pluto" >}}
 
 ---
-{{ slide codeFences=true }}
+{{< slide codeFences="true" >}}
 
 ```mermaid
 graph LR
