@@ -24,7 +24,7 @@ jobs:
       - name: Update submodules
         run: git submodule update --init --recursive
       - name: Adjust chart for mermaid rendering
-        run: npx -p @mermaid-js/mermaid-cli mmdc -i content/_index.md -o content/_index.md   
+        run: ruby scripts/adjust-svg.ru
       - name: Compute the version of Hugo
         id: hugo
         shell: bash
