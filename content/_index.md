@@ -13,12 +13,15 @@ aliases = [
 
 # A good title
 ## Subtitles are important
-### Talk @ Somewhere
+**Talk @ Somewhere**
 
-###### **Gianluca Aguzzi**
-<aside class="notes">
-    Shhh, these are your private notes 📝
-</aside>
+🎤 *Gianluca Aguzzi*
+
+📧 [gianluca.aguzzi@unibo.it](mailto:gianluca.aguzzi@unibo.it)
+
+{{% note %}}
+Don't forget to thank the audience.
+{{% /note %}}
 
 ---
 
