@@ -35,8 +35,11 @@ You can edit this file to create your presentation.
 Otherwise, you can create a new file in the `content` folder and add the following header in the beginning of the file:
 ```yaml
 +++
-weight = 2
+weight = <weight>
 +++
 ```
+
+Where `<weight>` is a number that determines the order of the slides.
+The lower the number, the higher the slide will be in the presentation.
 
 If you want to see a complete example, you can check one of my presentations [here](https://github.com/cric96/hello-aarhus)](https://github.com/cric96/hello-aarhus)
