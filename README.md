@@ -43,3 +43,5 @@ Where `<weight>` is a number that determines the order of the slides.
 The lower the number, the higher the slide will be in the presentation.
 
 If you want to see a complete example, you can check one of my presentations [here](https://github.com/cric96/hello-aarhus)](https://github.com/cric96/hello-aarhus)
+
+For any other details, please refer to the [reveal-hugo](https://github.com/dzello/reveal-hugo)
