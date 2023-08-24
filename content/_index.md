@@ -71,7 +71,7 @@ normal text
 
 # Inline images
 
-![Alternative text](https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg)
+![Alternative text](https://picsum.photos/200)
 
 ---
 
@@ -82,78 +82,78 @@ Autoresize specifying
 * `max-w` (percent of parent element width) and/or `max-h` (percent of viewport height) as max sizes , and
 * `width` and/or `height` as *exact* sizes (as percent of viewport size)
 
-{{< image src="https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg" max-h="20">}}
+{{< image src="https://picsum.photos/200" max-h="20">}}
 
 ---
 
 ## Low res, plain markdown
 
-![](https://upload.wikimedia.org/wikipedia/it/thumb/6/6c/Scavolino_innevata.jpg/260px-Scavolino_innevata.jpg)
+![](https://picsum.photos/200)
 
 ---
 
 ## Hi res, plain markdown
 
-![](https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg)
+![](https://picsum.photos/800)
 
 ---
 
 ## Low res, default
 
-{{< image src="https://upload.wikimedia.org/wikipedia/it/thumb/6/6c/Scavolino_innevata.jpg/260px-Scavolino_innevata.jpg" >}}
+{{< image src="https://picsum.photos/200" >}}
 
 ---
 
 ## Hi res, default
 
-{{< image src="https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg" >}}
+{{< image src="https://picsum.photos/800" >}}
 
 ---
 
 ## Low res, enlarged horizontally
 
-{{< image src="https://upload.wikimedia.org/wikipedia/it/thumb/6/6c/Scavolino_innevata.jpg/260px-Scavolino_innevata.jpg" width="100">}}
+{{< image src="https://picsum.photos/200" width="100">}}
 
 ---
 
 ## Low res, enlarged vertically
 
-{{< image src="https://upload.wikimedia.org/wikipedia/it/thumb/6/6c/Scavolino_innevata.jpg/260px-Scavolino_innevata.jpg" height="100">}}
+{{< image src="https://picsum.photos/200" height="100">}}
 
 ---
 
 ## Hi res, reduced horizontally
 
-{{< image src="https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg" width="50">}}
+{{< image src="https://picsum.photos/200" width="50">}}
 
 ---
 
 ## Hi res, reduced vertically
 
-{{< image src="https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg" height="50">}}
+{{< image src="https://picsum.photos/200" height="50">}}
 
 ---
 
 ## Hi res, reducing maximum expansion horizontally
 
-{{< image src="https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg" max-w="50">}}
+{{< image src="https://picsum.photos/200" max-w="50">}}
 
 ---
 
 ## Hi res, reducing maximum expansion vertically
 
-{{< image src="https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg" max-h="50">}}
+{{< image src="https://picsum.photos/200" max-h="50">}}
 
 ---
 
-{{< slide background-image="https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg" >}}
+{{< slide background-image="https://picsum.photos/1900" >}}
 
 # Large images as background
 ## (May affect printing)
 
 ---
 
-{{< slide background-image="https://upload.wikimedia.org/wikipedia/it/6/6c/Scavolino_innevata.jpg" state="blur-animation-light"  transition="fade-in fade-out" >}}
+{{< slide background-image="https://picsum.photos/1900" state="blur-animation-light"  transition="fade-in fade-out" >}}
 
 # Also available with blur and custom transitions
 ## (May affect printing)
