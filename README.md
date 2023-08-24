@@ -16,7 +16,7 @@ If you are using other operating systems, please refer to the [official document
 To use this template, you can click on the green button "Use this template" on the top right of this page.
 ![image](https://github.com/cric96/Template-Hugo-Reveal-Slides/assets/23448811/ff89a1dd-c2e9-402e-8837-ef46e0c98b7d)
 
-One you have created your repository, you can clone it with:
+Once you have created your repository, you can clone it with:
 ```bash
 git clone --recurse-submodules <repo-url>
 ```
