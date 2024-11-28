@@ -63,7 +63,7 @@ jobs:
         uses: cric96/inline-mermaid@1.12.0
       - name: Deploy website
         if: ${{ github.event_name != 'pull_request' }}
-        uses: JamesIves/github-pages-deploy-action@v4.6.9
+        uses: JamesIves/github-pages-deploy-action@v4.7.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: gh-pages
