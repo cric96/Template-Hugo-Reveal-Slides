@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
       - name: Get GH pages URL
         run: echo https://$GITHUB_REPOSITORY_OWNER.github.io/$REPOSITORY_NAME | xargs -I{} echo '::set-output name=URL::{}'
         id: gh-pages-url
